@@ -20,7 +20,7 @@
 
 		<!-- OSGi framework version -->
 		<osgi.api.version>4.2.0</osgi.api.version>
-		
+
 		<!-- Karaf framework version.  Used by both GUI/Headless -->
 		<karaf.version>2.2.9</karaf.version>
 
@@ -42,11 +42,6 @@
 		<maven-dependency-plugin.version>2.5.1</maven-dependency-plugin.version>
 		<maven-resources-plugin.version>2.6</maven-resources-plugin.version>
 		<maven-replacer-plugin.version>1.3.9</maven-replacer-plugin.version>
-
-		<!-- Source Code Repository URLs -->
-		<scm.connection.root>scm:svn:http://chianti.ucsd.edu/svn/core3</scm.connection.root>
-		<scm.dev.connection.root>scm:svn:svn+ssh://grenache.ucsd.edu/cellar/common/svn/core3</scm.dev.connection.root>
-		<scm.url.root>http://chianti.ucsd.edu/svn/core3</scm.url.root>
 
 	</properties>
 
@@ -98,7 +93,7 @@
 					</links>
 					<footer>Cytoscape 3 Core API</footer>
 					<header>Cytoscape 3 Core API</header>
-					<bottom>Copyright 2012 Cytoscape Consortium. All rights reserved.</bottom>
+					<bottom>Copyright 2013 Cytoscape Consortium. All rights reserved.</bottom>
 					<tagletArtifacts>
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
@@ -153,7 +148,7 @@
 					<organizationName>The Cytoscape Consortium</organizationName>
 					<inceptionYear>2013</inceptionYear>
 					<licenseName>lgpl_v2_1</licenseName>
-					
+
 					<failOnMissingHeader>true</failOnMissingHeader>
 					<ignoreTag>%% Ignore-License</ignoreTag>
 					<roots>
@@ -327,8 +322,8 @@
 	</pluginRepositories>
 
 	<scm>
-		<connection>scm:svn:http://chianti.ucsd.edu/svn/core3/parent/trunk</connection>
-		<developerConnection>scm:svn:svn+ssh://grenache.ucsd.edu/cellar/common/svn/core3/parent/trunk</developerConnection>
-		<url>http://chianti.ucsd.edu/svn/core3/parent/trunk</url>
+		<connection>scm:git:git://github.com/cytoscape/cytoscape-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:cytoscape/cytoscape-parent.git</developerConnection>
+		<url>https://github.com/cytoscape/cytoscape-parent.git</url>
 	</scm>
 </project>
