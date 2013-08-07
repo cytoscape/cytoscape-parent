@@ -16,13 +16,13 @@
 		<mockito.version>1.8.5</mockito.version>
 
 		<!-- Felix OSGi framework version -->
-		<felix.version>3.0.1</felix.version>
+		<felix.version>3.2.2</felix.version>
 
 		<!-- OSGi framework version -->
 		<osgi.api.version>4.2.0</osgi.api.version>
 
 		<!-- Karaf framework version.  Used by both GUI/Headless -->
-		<karaf.version>2.2.9</karaf.version>
+		<karaf.version>2.2.11</karaf.version>
 
 		<!-- PAX Exam version. This is for integration testing -->
 		<pax.exam.version>1.2.2</pax.exam.version>
