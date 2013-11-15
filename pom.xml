@@ -12,8 +12,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- For unit testing -->
-		<junit.version>4.8.2</junit.version>
-		<mockito.version>1.8.5</mockito.version>
+		<junit.version>4.11</junit.version>
+		<mockito.version>1.9.5</mockito.version>
 
 		<!-- Felix OSGi framework version -->
 		<felix.version>3.2.2</felix.version>
@@ -37,7 +37,7 @@
 		<maven-bundle-plugin.version>2.3.7</maven-bundle-plugin.version>
 		<maven-jar-plugin.version>2.4</maven-jar-plugin.version>
 		<maven-surefire-plugin.version>2.12.4</maven-surefire-plugin.version>
-		<maven-assembly-plugin.version>2.2-beta-5</maven-assembly-plugin.version>
+		<maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
 		<maven-enforcer-plugin.version>1.0</maven-enforcer-plugin.version>
 		<maven-dependency-plugin.version>2.5.1</maven-dependency-plugin.version>
 		<maven-resources-plugin.version>2.6</maven-resources-plugin.version>
