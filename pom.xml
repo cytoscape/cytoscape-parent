@@ -86,14 +86,14 @@
 					<skip>false</skip>
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<locale>en</locale>
-					<javadocVersion>1.6</javadocVersion>
+					<javadocVersion>1.7</javadocVersion>
 					<links>
-						<link>http://docs.oracle.com/javase/6/docs/api/</link>
+						<link>http://docs.oracle.com/javase/7/docs/api/</link>
 						<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link>
 					</links>
 					<footer>Cytoscape 3 Core API</footer>
 					<header>Cytoscape 3 Core API</header>
-					<bottom>Copyright 2013 Cytoscape Consortium. All rights reserved.</bottom>
+					<bottom>Copyright 2014 Cytoscape Consortium. All rights reserved.</bottom>
 					<tagletArtifacts>
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
@@ -146,7 +146,7 @@
 					<verbose>false</verbose>
 					<addSvnKeyWords>true</addSvnKeyWords>
 					<organizationName>The Cytoscape Consortium</organizationName>
-					<inceptionYear>2013</inceptionYear>
+					<inceptionYear>2014</inceptionYear>
 					<licenseName>lgpl_v2_1</licenseName>
 
 					<failOnMissingHeader>true</failOnMissingHeader>
