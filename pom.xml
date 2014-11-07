@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cytoscape</groupId>
 	<artifactId>parent</artifactId>
-	<version>3.1.0</version>
+	<version>3.2.0</version>
 	<packaging>pom</packaging>
 	<name>Basic Cytoscape POM Configuration</name>
 
@@ -22,7 +22,7 @@
 		<osgi.api.version>4.2.0</osgi.api.version>
 
 		<!-- Karaf framework version.  Used by both GUI/Headless -->
-		<karaf.version>2.2.11</karaf.version>
+		<karaf.version>2.3.5</karaf.version>
 
 		<!-- PAX Exam version. This is for integration testing -->
 		<pax.exam.version>1.2.2</pax.exam.version>
@@ -66,8 +66,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.7</source>
+					<target>1.7</target>
 					<optimize>true</optimize>
 					<showWarnings>true</showWarnings>
 					<showDeprecation>true</showDeprecation>
@@ -86,19 +86,19 @@
 					<skip>false</skip>
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<locale>en</locale>
-					<javadocVersion>1.6</javadocVersion>
+					<javadocVersion>1.7</javadocVersion>
 					<links>
-						<link>http://docs.oracle.com/javase/6/docs/api/</link>
+						<link>http://docs.oracle.com/javase/7/docs/api/</link>
 						<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link>
 					</links>
 					<footer>Cytoscape 3 Core API</footer>
 					<header>Cytoscape 3 Core API</header>
-					<bottom>Copyright 2013 Cytoscape Consortium. All rights reserved.</bottom>
+					<bottom>Copyright 2014 Cytoscape Consortium. All rights reserved.</bottom>
 					<tagletArtifacts>
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
 							<artifactId>taglets</artifactId>
-							<version>3.1.0</version>
+							<version>3.2.0</version>
 						</tagletArtifact>
 					</tagletArtifacts>
 				</configuration>
@@ -146,7 +146,7 @@
 					<verbose>false</verbose>
 					<addSvnKeyWords>true</addSvnKeyWords>
 					<organizationName>The Cytoscape Consortium</organizationName>
-					<inceptionYear>2013</inceptionYear>
+					<inceptionYear>2014</inceptionYear>
 					<licenseName>lgpl_v2_1</licenseName>
 
 					<failOnMissingHeader>true</failOnMissingHeader>
