@@ -319,6 +319,17 @@
 			<name>Cytoscape Releases</name>
 			<url>http://code.cytoscape.org/nexus/content/repositories/releases/</url>
 		</pluginRepository>
+		<pluginRepository>
+			<id>cytoscape_thirdparty</id>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<name>Cytoscape Third Party</name>
+			<url>http://code.cytoscape.org/nexus/content/repositories/thirdparty/</url>
+		</pluginRepository>
 	</pluginRepositories>
 
 	<scm>
