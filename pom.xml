@@ -256,11 +256,6 @@
 			<url>http://code.cytoscape.org/nexus/content/repositories/spring-osgi-external/</url>
 		</repository>
 		<repository>
-			<id>itextpdf.com</id>
-			<name>Maven Repository for iText</name>
-			<url>http://maven.itextpdf.com/</url>
-		</repository>
-		<repository>
 			<id>zodiac-repository</id>
 			<name>Zodiac Release Repository (Gemini Blueprint) Mirror</name>
 			<url>http://code.cytoscape.org/nexus/content/repositories/zodiac-release/</url>
