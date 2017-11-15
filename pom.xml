@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cytoscape</groupId>
 	<artifactId>parent</artifactId>
-	<version>3.5.1</version>
+	<version>3.6.0</version>
 	<packaging>pom</packaging>
 	<name>Basic Cytoscape POM Configuration</name>
 
@@ -98,7 +98,7 @@
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
 							<artifactId>taglets</artifactId>
-							<version>3.5.0</version>
+							<version>3.6.0</version>
 						</tagletArtifact>
 					</tagletArtifacts>
 				</configuration>
@@ -254,11 +254,6 @@
 			<id>spring-osgi-snapshots</id>
 			<name>Cytoscape Spring OSGi External Mirror</name>
 			<url>http://code.cytoscape.org/nexus/content/repositories/spring-osgi-external/</url>
-		</repository>
-		<repository>
-			<id>itextpdf.com</id>
-			<name>Maven Repository for iText</name>
-			<url>http://maven.itextpdf.com/</url>
 		</repository>
 		<repository>
 			<id>zodiac-repository</id>
