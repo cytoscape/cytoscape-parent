@@ -215,28 +215,6 @@
 			<name>Cytoscape Third Party</name>
 			<url>http://code.cytoscape.org/nexus/content/repositories/thirdparty/</url>
 		</repository>
-		<repository>
-			<id>cytoscape_biopax_release</id>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<name>Cytoscape BioPAX Release Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/biopax-release/</url>
-		</repository>
-		<repository>
-			<id>cytoscape_biopax_snapshot</id>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<name>Cytoscape BioPAX Snapshot Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/biopax-snapshot/</url>
-		</repository>
 		<!-- The following repo is only useful if Cytoscape is being built with a SNAPSHOT of an apache 
 		project. Once the relevant projects are out of SNAPSHOT and have a full version number
 		this repo should be removed. -->
