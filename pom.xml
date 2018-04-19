@@ -25,7 +25,7 @@
 		<osgi.compendium.version>5.0.0</osgi.compendium.version>
 
 		<!-- Karaf framework version.  Used by both GUI/Headless -->
-		<karaf.version>4.2.0-SNAPSHOT</karaf.version>
+		<karaf.version>4.2.0</karaf.version>
 
 		<!-- PAX Exam version. This is for integration testing -->
 		<pax.exam.version>1.2.2</pax.exam.version>
