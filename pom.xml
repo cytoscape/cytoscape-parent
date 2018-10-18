@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cytoscape</groupId>
 	<artifactId>parent</artifactId>
-	<version>3.7.0</version>
+	<version>3.7.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Basic Cytoscape POM Configuration</name>
 
@@ -101,7 +101,7 @@
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
 							<artifactId>taglets</artifactId>
-							<version>3.7.0</version>
+							<version>3.7.1-SNAPSHOT</version>
 						</tagletArtifact>
 					</tagletArtifacts>
 				</configuration>
