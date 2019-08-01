@@ -10,7 +10,7 @@
 	<name>Basic Cytoscape POM Configuration</name>
 
 	<properties>
-		
+
 		<!-- Text encoding. We need to use UTF-8 for EVERYTHING. -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -55,12 +55,12 @@
 		<repository>
 			<id>releases</id>
 			<name>Internal Releases</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/releases</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Internal Snapshots</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/snapshots</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -88,18 +88,18 @@
 						<Xmaxwarns>10000</Xmaxwarns>
 						<Xmaxerrs>10000</Xmaxerrs>
 					</compilerArguments>
-					
+
 				</configuration>
 			</plugin>
-			<!-- <plugin> <inherited>true</inherited> <groupId>org.apache.maven.plugins</groupId> 
-				<artifactId>maven-javadoc-plugin</artifactId> <version>${maven-javadoc-plugin.version}</version> 
-				<configuration> <skip>false</skip> <encoding>${project.build.sourceEncoding}</encoding> 
-				<locale>en</locale> <javadocVersion>1.8</javadocVersion> <links> <link>http://docs.oracle.com/javase/7/docs/api/</link> 
-				<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link> 
-				</links> <footer>Cytoscape 3 Core API</footer> <header>Cytoscape 3 Core API</header> 
-				<bottom>Copyright 2015 Cytoscape Consortium. All rights reserved.</bottom> 
-				<tagletArtifacts> <tagletArtifact> <groupId>org.cytoscape</groupId> <artifactId>taglets</artifactId> 
-				<version>3.8.0-SNAPSHOT</version> </tagletArtifact> </tagletArtifacts> </configuration> 
+			<!-- <plugin> <inherited>true</inherited> <groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId> <version>${maven-javadoc-plugin.version}</version>
+				<configuration> <skip>false</skip> <encoding>${project.build.sourceEncoding}</encoding>
+				<locale>en</locale> <javadocVersion>1.8</javadocVersion> <links> <link>http://docs.oracle.com/javase/7/docs/api/</link>
+				<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link>
+				</links> <footer>Cytoscape 3 Core API</footer> <header>Cytoscape 3 Core API</header>
+				<bottom>Copyright 2015 Cytoscape Consortium. All rights reserved.</bottom>
+				<tagletArtifacts> <tagletArtifact> <groupId>org.cytoscape</groupId> <artifactId>taglets</artifactId>
+				<version>3.8.0-SNAPSHOT</version> </tagletArtifact> </tagletArtifacts> </configuration>
 				</plugin> -->
 			<plugin>
 				<inherited>true</inherited>
@@ -174,31 +174,31 @@
 		</extensions>
 	</build>
 
-	<!-- these items don't exist in the typical public maven repos; we could 
+	<!-- these items don't exist in the typical public maven repos; we could
 		add these directly to Nexus if desired -->
 	<repositories>
 		<repository>
-			<id>cytoscape_snapshots</id>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<name>Cytoscape Snapshots</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/snapshots/</url>
-		</repository>
-		<repository>
-			<id>cytoscape_releases</id>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<name>Cytoscape Releases</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/releases/</url>
-		</repository>
+          <id>cytoscape_snapshots</id>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
+          <name>Cytoscape Snapshots</name>
+          <url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
+        </repository>
+        <repository>
+          <id>cytoscape_releases</id>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <name>Cytoscape Releases</name>
+          <url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
+        </repository>
 		<repository>
 			<id>cytoscape_thirdparty</id>
 			<snapshots>
@@ -208,29 +208,15 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Third Party</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/thirdparty/</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</repository>
-		<!-- The following repo is only useful if Cytoscape is being built with 
-			a SNAPSHOT of an apache project. Once the relevant projects are out of SNAPSHOT 
+		<!-- The following repo is only useful if Cytoscape is being built with
+			a SNAPSHOT of an apache project. Once the relevant projects are out of SNAPSHOT
 			and have a full version number this repo should be removed. -->
 		<repository>
 			<id>apache-snapshots</id>
 			<name>Apache Snapshots Repository</name>
 			<url>http://repository.apache.org/content/groups/snapshots-group</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<!-- The following repo is only useful if Cytoscape is being built with 
-			a SNAPSHOT of an OPS4J project. Once the relevant projects are out of SNAPSHOT 
-			and have a full version number this repo should be removed. -->
-		<repository>
-			<id>ops4j.sonatype.snapshots.deploy</id>
-			<name>OPS4J snapshot repository</name>
-			<url>https://oss.sonatype.org/content/repositories/ops4j-snapshots/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
@@ -305,7 +291,7 @@
 				<enabled>false</enabled>
 			</releases>
 			<name>Cytoscape Snapshots</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/snapshots/</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
 		</pluginRepository>
 		<pluginRepository>
 			<id>cytoscape_releases</id>
@@ -316,7 +302,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Releases</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/releases/</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
 		</pluginRepository>
 		<pluginRepository>
 			<id>cytoscape_thirdparty</id>
@@ -327,7 +313,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Third Party</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/thirdparty/</url>
+			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</pluginRepository>
 	</pluginRepositories>
 
