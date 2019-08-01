@@ -10,9 +10,8 @@ branches:
     - java11
 
 deploy:
-  branches:
-    only:
-      - java11
+  on:
+    branch: java11
   provider: script
   script: "cp .travis.settings.xml $HOME/.m2/settings.xml && mvn deploy"
   skip_cleanup: true
