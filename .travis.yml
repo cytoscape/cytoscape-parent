@@ -7,7 +7,7 @@ jdk:
 
 branches:
   only:
-    java11
+    - java11
 
 deploy:
   provider: script
