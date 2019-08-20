@@ -100,7 +100,7 @@
 					<skip>false</skip>
 					<encoding>${project.build.sourceEncoding}</encoding>
 					<locale>en</locale>
-					<javadocVersion>11.0.4</javadocVersion>
+					<javadocVersion>11.0.2</javadocVersion>
 					<links>
 						<link>https://docs.oracle.com/en/java/javase/11/docs/api/</link>
 						<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link>
