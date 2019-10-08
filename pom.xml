@@ -149,10 +149,29 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven-surefire-plugin.version}</version>
 				<configuration>
-					<argLine>-Xmx256m</argLine>
+					<argLine>${argLine} -Xmx256m</argLine>
 					<redirectTestOutputToFile>true</redirectTestOutputToFile>
 				</configuration>
 			</plugin>
+			<plugin>
+					<groupId>org.jacoco</groupId>
+					<artifactId>jacoco-maven-plugin</artifactId>
+					<version>0.8.4</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>prepare-agent</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>report</id>
+							<phase>prepare-package</phase>
+							<goals>
+								<goal>report</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>license-maven-plugin</artifactId>
@@ -191,7 +210,7 @@
 		</extensions>
 	</build>
 
-	<!-- these items don't exist in the typical public maven repos; we could 
+	<!-- these items don't exist in the typical public maven repos; we could
 		add these directly to Nexus if desired -->
 	<repositories>
 		<repository>
@@ -227,8 +246,8 @@
 			<name>Cytoscape Third Party</name>
 			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</repository>
-		<!-- The following repo is only useful if Cytoscape is being built with 
-			a SNAPSHOT of an apache project. Once the relevant projects are out of SNAPSHOT 
+		<!-- The following repo is only useful if Cytoscape is being built with
+			a SNAPSHOT of an apache project. Once the relevant projects are out of SNAPSHOT
 			and have a full version number this repo should be removed. -->
 		<repository>
 			<id>apache-snapshots</id>
