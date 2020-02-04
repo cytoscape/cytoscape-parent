@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- For unit testing -->
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13</junit.version>
 		<mockito.version>2.20.0</mockito.version>
 
 		<!-- Felix OSGi framework version -->
