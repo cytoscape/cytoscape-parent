@@ -246,20 +246,6 @@
 			<name>Cytoscape Third Party</name>
 			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</repository>
-		<!-- The following repo is only useful if Cytoscape is being built with
-			a SNAPSHOT of an apache project. Once the relevant projects are out of SNAPSHOT
-			and have a full version number this repo should be removed. -->
-		<repository>
-			<id>apache-snapshots</id>
-			<name>Apache Snapshots Repository</name>
-			<url>http://repository.apache.org/content/groups/snapshots-group</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
 		<repository>
 			<id>ops4j-release</id>
 			<snapshots>
