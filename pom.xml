@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.cytoscape</groupId>
 	<artifactId>parent</artifactId>
-	<version>3.8.0</version>
+	<version>3.8.1</version>
 	<packaging>pom</packaging>
 	<name>Basic Cytoscape POM Configuration</name>
 
@@ -35,7 +35,7 @@
 
 		<!-- Maven Plugin versions -->
 		<maven-paxexam-plugin.version>1.2.4</maven-paxexam-plugin.version>
-		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
@@ -113,7 +113,7 @@
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
 							<artifactId>taglets</artifactId>
-							<version>3.8.0</version>
+							<version>3.8.1</version>
 						</tagletArtifact>
 					</tagletArtifacts>
 				</configuration>
