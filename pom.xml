@@ -156,7 +156,7 @@
 			<plugin>
 					<groupId>org.jacoco</groupId>
 					<artifactId>jacoco-maven-plugin</artifactId>
-					<version>0.8.4</version>
+					<version>0.8.6</version>
 					<executions>
 						<execution>
 							<goals>
@@ -304,6 +304,13 @@
 	</repositories>
 
 	<pluginRepositories>
+	
+  <pluginRepository>
+      <id>central</id>
+    <name>Central Repository</name>
+    <url>https://repo.maven.apache.org/maven2</url>
+  </pluginRepository>
+
 		<pluginRepository>
 			<id>cytoscape_snapshots</id>
 			<snapshots>
