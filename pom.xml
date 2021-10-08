@@ -109,7 +109,7 @@
 					</links>
 					<footer>Cytoscape 3 Core API</footer>
 					<header>Cytoscape 3 Core API</header>
-					<bottom>Copyright 2015 Cytoscape Consortium. All rights reserved.</bottom>
+					<bottom>Copyright 2021 Cytoscape Consortium. All rights reserved.</bottom>
 					<tagletArtifacts>
 						<tagletArtifact>
 							<groupId>org.cytoscape</groupId>
@@ -117,6 +117,124 @@
 							<version>3.10.0-SNAPSHOT</version>
 						</tagletArtifact>
 					</tagletArtifacts>
+					<groups>
+						<group>
+							<title>app-api</title>
+							<packages>org.cytoscape.app*</packages>
+						</group>
+						<group>
+							<title>application-api</title>
+							<packages>org.cytoscape.application*</packages>
+						</group>
+						<group>
+							<title>ci-api</title>
+							<packages>org.cytoscape.ci*</packages>
+						</group>
+						<group>
+							<title>command-executor-api</title>
+							<packages>org.cytoscape.command*</packages>
+						</group>
+						<group>
+							<title>core-task-api</title>
+							<packages>org.cytoscape.task*</packages>
+						</group>
+						<group>
+							<title>datasource-api</title>
+							<packages>org.cytoscape.io.datasource*</packages>
+						</group>
+						<group>
+							<title>equations-api</title>
+							<packages>org.cytoscape.equations*</packages>
+						</group>
+						<group>
+							<title>event-api</title>
+							<packages>org.cytoscape.event*</packages>
+						</group>
+						<group>
+							<title>filter-api</title>
+							<packages>org.cytoscape.filter*</packages>
+						</group>
+						<group>
+							<title>group-api</title>
+							<packages>org.cytoscape.group*</packages>
+						</group>
+						<group>
+							<title>io-api</title>
+							<packages>org.cytoscape.io:org.cytoscape.io.read*:org.cytoscape.io.util*:org.cytoscape.io.write*</packages>
+						</group>
+						<group>
+							<title>jobs-api</title>
+							<packages>org.cytoscape.jobs*</packages>
+						</group>
+						<group>
+							<title>layout-api</title>
+							<packages>org.cytoscape.view.layout*</packages>
+						</group>
+						<group>
+							<title>model-api</title>
+							<packages>org.cytoscape.model*</packages>
+						</group>
+						<group>
+							<title>presentation-api</title>
+							<packages>org.cytoscape.view.presentation*</packages>
+						</group>
+						<group>
+							<title>property-api</title>
+							<packages>org.cytoscape.property*</packages>
+						</group>
+						<group>
+							<title>service-api</title>
+							<packages>org.cytoscape.service*</packages>
+						</group>
+						<group>
+							<title>session-api</title>
+							<packages>org.cytoscape.session*</packages>
+						</group>
+						<group>
+							<title>swing-app-api</title>
+							<packages>org.cytoscape.app.swing*</packages>
+						</group>
+						<group>
+							<title>swing-application-api</title>
+							<packages>org.cytoscape.application.swing*</packages>
+						</group>
+						<group>
+							<title>swing-util-api</title>
+							<packages>org.cytoscape.util.swing*</packages>
+						</group>
+						<group>
+							<title>util-api</title>
+							<packages>org.cytoscape.util.color*:org.cytoscape.util.json*</packages>
+						</group>
+						<group>
+							<title>viewmodel-api</title>
+							<packages>org.cytoscape.view.model*</packages>
+						</group>
+						<group>
+							<title>vizmap-api</title>
+							<packages>org.cytoscape.view.vizmap*</packages>
+						</group>
+						<group>
+							<title>vizmap-api</title>
+							<packages>org.cytoscape.view.vizmap:org.cytoscape.view.vizmap.events*:org.cytoscape.view.vizmap.mappings*</packages>
+						</group>
+						<group>
+							<title>vizmap-gui-api</title>
+							<packages>org.cytoscape.view.vizmap.gui*</packages>
+						</group>
+						<group>
+							<title>webservice-api</title>
+							<packages>org.cytoscape.io.webservice:org.cytoscape.io.webservice.client*:org.cytoscape.io.webservice.events*</packages>
+						</group>
+						<group>
+							<title>webservice-swing-api</title>
+							<packages>org.cytoscape.io.webservice.swing*</packages>
+						</group>
+						<group>
+							<title>work-api</title>
+							<packages>org.cytoscape.work*</packages>
+						</group>
+					</groups>
 				</configuration>
 			</plugin>
 			<plugin>
