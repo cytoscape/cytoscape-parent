@@ -347,61 +347,6 @@
 			<name>Cytoscape Third Party</name>
 			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</repository>
-		<repository>
-			<id>ops4j-release</id>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<name>Cytoscape Ops4j Release Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/ops4j-release/</url>
-		</repository>
-		<repository>
-			<id>spring-osgi</id>
-			<name>Cytoscape Spring OSGi Release Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/spring-osgi/</url>
-		</repository>
-		<repository>
-			<id>spring-osgi-snapshots</id>
-			<name>Cytoscape Spring OSGi External Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/spring-osgi-external/</url>
-		</repository>
-		<repository>
-			<id>zodiac-repository</id>
-			<name>Zodiac Release Repository (Gemini Blueprint) Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/zodiac-release/</url>
-		</repository>
-		<repository>
-			<id>zodiac-milestone-repository</id>
-			<name>Zodiac Milestone Repository (Gemini Blueprint) Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/zodiac-milestone/</url>
-		</repository>
-		<repository>
-			<id>sonatype-oss</id>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<name>Sonatype OSS Release Mirror</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/sonatype-oss/</url>
-		</repository>
-
-		<!-- For PSI-MI Library -->
-		<repository>
-			<id>ebi-repo</id>
-			<name>The EBI internal repository</name>
-			<url>http://code.cytoscape.org/nexus/content/repositories/ebi/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
 	</repositories>
 
 	<pluginRepositories>
