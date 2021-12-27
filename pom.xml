@@ -28,11 +28,10 @@
 		<osgi.compendium.version>5.0.0</osgi.compendium.version>
 
 		<!-- Karaf framework version. Used by both GUI/Headless -->
-		<!--karaf.version>4.2.13</karaf.version-->
-		<karaf.version>4.2.13</karaf.version>
+		<karaf.version>4.2.14</karaf.version>
 
 		<!-- PAX Logging version. This should match the version provided by Karaf -->
-		<pax.logging.version>1.11.11</pax.logging.version>
+		<pax.logging.version>1.11.12</pax.logging.version>
 
     <!-- The JavaFX version we're using -->
     <javafx.version>15.0.1</javafx.version>
