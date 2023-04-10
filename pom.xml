@@ -36,7 +36,7 @@
 		<!-- Maven Plugin versions -->
 		<maven-paxexam-plugin.version>1.2.4</maven-paxexam-plugin.version>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
-		<maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
+		<maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
 		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 		<maven-pax-plugin.version>1.5</maven-pax-plugin.version>
@@ -103,7 +103,6 @@
 					<!-- <javadocVersion>[11.0,</javadocVersion> -->
 					<links>
 						<link>https://docs.oracle.com/en/java/javase/11/docs/api/</link>
-						<link>http://code.cytoscape.org/jenkins/job/cytoscape-3-javadoc/javadoc/</link>
 						<link>https://osgi.org/javadoc/r6/core/</link>
 					</links>
 					<footer>Cytoscape 3 Core API</footer>
