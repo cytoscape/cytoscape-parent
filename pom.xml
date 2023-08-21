@@ -28,7 +28,7 @@
 		<osgi.compendium.version>7.0.0</osgi.compendium.version>
 
 		<!-- Karaf framework version. Used by both GUI/Headless -->
-		<karaf.version>4.3.7</karaf.version>
+		<karaf.version>4.3.9</karaf.version>
 
 		<!-- PAX Exam version. This is for integration testing -->
 		<pax.exam.version>1.2.2</pax.exam.version>
@@ -321,7 +321,7 @@
 				<enabled>false</enabled>
 			</releases>
 			<name>Cytoscape Snapshots</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
 		</repository>
 		<repository>
 			<id>cytoscape_releases</id>
@@ -332,7 +332,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Releases</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
 		</repository>
 		<repository>
 			<id>cytoscape_thirdparty</id>
@@ -343,7 +343,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Third Party</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</repository>
 	</repositories>
 
@@ -358,7 +358,7 @@
 				<enabled>false</enabled>
 			</releases>
 			<name>Cytoscape Snapshots</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
 		</pluginRepository>
 		<pluginRepository>
 			<id>cytoscape_releases</id>
@@ -369,7 +369,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Releases</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
 		</pluginRepository>
 		<pluginRepository>
 			<id>cytoscape_thirdparty</id>
@@ -380,7 +380,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<name>Cytoscape Third Party</name>
-			<url>http://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
+			<url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_thirdparty/</url>
 		</pluginRepository>
 	</pluginRepositories>
 
